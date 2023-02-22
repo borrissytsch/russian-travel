@@ -30,7 +30,7 @@
   --head_berth_height: 615;
   --head_picap_topmrg: 8;
   --head_picap_leftmrg: var(--head_berth_sidemgr);
-  --head_picap_height: 14; 
+  --head_picap_height: 14;
   --header_height: calc(var(--logo_top_marg) + var(--logo_height) + var(--head_title_topmrg) + var(--head_title_height) + var(--head_subtitle_topmrg) + var(--head_subtitle_height) + var(--head_subtitle_botmrg) + var(--head_berth_height) + var(--head_picap_topmrg) + var(--head_picap_height) + 64);
   /* ---------------------------- Content config ---------------------------- */
   --content_top: var(--default_section_top);
@@ -49,7 +49,6 @@
   --sight_table_gap: 16;
   --sight_image_width: 284;
   --sight_image_hight: 213;
-
   --places_top: var(--default_section_top);
   --table_left: 148;
   --table_right: var(--table_left);
@@ -60,7 +59,6 @@
   --table_rowgap: 48;
   --table_lnk_bot: 12;
   --table_prg_bot: 28;
-
   --conclusion_top: var(--default_section_top);
   --conlusion_left: var(--default_section_left);
   --conlusion_right: var(--conlusion_left);
