@@ -5,6 +5,6 @@
   margin-right: var(--items_right);
   padding: 0;
   width: var(--items_width);
-  min-height: (var(--sight_rev_refhgtcalc)*1px);;
+  min-height: (var(--sight_rev_refhgtcalc)*1px);
   list-style-type: none;
 }                                                                                                                                                                                    /* border: 2px dotted deepskyblue; */
