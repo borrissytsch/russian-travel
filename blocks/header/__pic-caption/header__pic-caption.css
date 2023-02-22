@@ -1,4 +1,4 @@
-.header__pic_caption {
+.header__pic-caption {
   margin: 0;
   padding-top: calc(var(--head_picap_topmrg)/var(--page_width)*100%);
   margin-left: calc(var(--head_picap_leftmrg)/var(--page_width)*100%);
