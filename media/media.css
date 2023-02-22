@@ -1,0 +1,191 @@
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .page {
+    --conclusion_2baycal_image: url(./../../images/conclusion/conclusion_tobaycalbydogs_tiny_1024x640.jpg);
+    --page_width: 1024px;
+
+    --head_title_topmrg: 48;
+    --head_title_sidemgr: 152;
+    --head_subtitle_sidemgr: 192;
+    --head_subtitle_botmrg: 56;
+    --head_berth_sidemgr: 48;
+    --head_berth_width: 928;
+    --head_berth_height: 580;
+
+    --sight_rev_left: 48;
+    --sight_rev_right: 286;
+    --num_gricols: 3;
+    --sight_table_gap: 14;
+    --sight_image_width: 300;
+    --sight_image_hight: 225;
+    --table_left: 48;
+    --table_colgap: 37;
+    --table_prg_bot: 26;
+
+    --conlusion_left: 0;
+    --concl_title_top: 195;
+    --concl_title_left: 232;
+  }
+}
+
+@media screen and (min-width: 541px) and (max-width: 768px) {
+  .page {
+    --conclusion_2baycal_image: url(./../../images/conclusion/conclusion_tobaycalbydogs_tiny_768x480.jpg);
+    --page_width: 768px;
+    --default_section_top: 88;
+    --default_section_left: 24;
+
+    --head_title_topmrg: 48;
+    --head_title_sidemgr: 24;
+    --head_subtitle_sidemgr: 64;
+    --head_subtitle_botmrg: 56;
+    --head_berth_sidemgr: 0;
+    --head_berth_width: 768;
+    --head_berth_height: 480;
+    --head_picap_leftmrg: 24;
+
+    --sight_rev_left: 24;
+    --sight_rev_right: 24;
+    --sight_rev_width: 720;
+    --num_gricols: 2;
+    --sight_image_width: 352;
+    --sight_image_hight: 264;
+    --table_left: 24;
+    --table_cell_bot: 73;
+    --table_colgap: 28;
+    --table_rowgap: 25;
+    --table_prg_bot: 25;
+
+    --conclusion_top: 90;
+    --conlusion_left: 0;
+    --concl_title_top: 115;
+    --concl_title_left: 104;
+    --footer_bot: 18;
+  }
+  .table__title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+
+  .table__paragraph {
+    line-height: 26px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 540px) {
+  .page {
+    --conclusion_2baycal_image: url(./../../images/conclusion/conclusion_tobaycalbydogs_tiny_320x200.jpg);
+    --page_width: 320px;
+    --default_section_top: 64;
+    --default_section_left: 16;
+
+    --logo_top_marg: 16;
+    --logo_width: 142;
+    --logo_height: 42;
+    --logo_link_topmarg: 30;
+    --logo_link_width: 22;
+    --logo_link_height: 20;
+    --head_title_topmrg: 48;
+    --head_title_sidemgr: 16;
+    --head_title_height: 88;
+    --head_subtitle_topmrg: 16;
+    --head_subtitle_sidemgr: 16;
+    --head_subtitle_botmrg: 40;
+    --head_subtitle_height: 40;
+    --head_berth_sidemgr: 0;
+    --head_berth_width: 320;
+    --head_berth_height: 200;
+    --head_picap_leftmrg: 16;
+
+    --sight_rev_left: 16;
+    --sight_rev_right: 16;
+    --sight_rev_width: 288;
+    --sight_rev_titlehgt: 70;
+    --sight_rev_parhgt: 520;
+    --sight_rev_reftop: 34;
+    --num_gricols: 1;
+    --sight_table_gap: 12;
+    --sight_image_width: 288;
+    --sight_image_hight: 216;
+    --table_left: 16;
+    --table_cell_bot: 50;
+    --table_rowgap: 32;
+    --table_prg_bot: 25;
+
+    --conclusion_top: 66;
+    --conlusion_left: 0;
+    --concl_title_top: 33;
+    --concl_title_left: 16;
+    --concl_title_width: 288;
+    --concl_title_height: 70;
+    --concl_subtitle_top: 16;
+    --concl_subtitle_width: 288;
+    --concl_subtitle_height: 48;
+
+    --footer_right: 178;
+  }
+
+  .logo__link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .header__title {
+    line-height: 44px;
+    font-size: 40px;
+  }
+  .header__subtitle {
+    line-height: 20px;
+    font-size: 16px;
+  }
+  .sightseeings__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .table__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .table__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .table__cell {
+    grid-template-columns: 100fr;
+  }
+
+  .conclusion__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .conclusion__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 48px;
+  }
+
+  .footer__links {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  row-gap: 32px;
+  }
+
+  .footer__link {
+    line-height: 24px;
+    font-size: 24px;
+  }
+
+  .footer__author {
+    line-height: 14px;
+  }
+}

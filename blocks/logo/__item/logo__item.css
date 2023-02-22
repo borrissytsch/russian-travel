@@ -1,0 +1,5 @@
+.logo__item {
+  margin: 0;
+  width: calc(var(--logo_link_width)*1px);
+  height: calc(var(--logo_link_height)*1px);
+}                                                                                                                                                                                    /* border: 2px dotted deepskyblue; */

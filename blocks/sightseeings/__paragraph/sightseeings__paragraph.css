@@ -1,0 +1,11 @@
+.sightseeings__paragraph {
+  margin: 0;
+  margin-top: calc(var(--sight_rev_partop)*1px);
+  margin-left: var(--items_left);
+  margin-right: var(--items_right);
+  width: var(--items_width);
+  min-height: calc(var(--sight_rev_parhgt)*1px); 
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}                                                                                                                                                                                            /* border: 2px dotted deepskyblue; */

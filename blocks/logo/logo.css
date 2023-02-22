@@ -1,0 +1,10 @@
+.logo {
+  margin: 0;
+  margin-top: calc((var(--logo_top_marg)/var(--header_height))*100%);
+  margin-left: calc(var(--logo_side_marg)*1px);
+  margin-right: calc(var(--logo_side_marg)*1px);
+  width: calc(100% - var(--logo_side_marg)*2px);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}                                                                                                                                                                                          /* border-color: turquoise; border-style: solid; */

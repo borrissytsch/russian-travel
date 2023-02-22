@@ -1,0 +1,5 @@
+.content {
+  margin: 0;
+  margin-top: calc(var(--content_top)*1px);
+  max-width: 100%;
+}                                                                                                                                                                                   /* border-color: red; border-style: solid; */

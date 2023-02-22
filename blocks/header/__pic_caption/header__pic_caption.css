@@ -1,0 +1,8 @@
+.header__pic_caption {
+  margin: 0;
+  padding-top: calc(var(--head_picap_topmrg)/var(--page_width)*100%);
+  margin-left: calc(var(--head_picap_leftmrg)/var(--page_width)*100%);
+  font-size: 10px;
+  line-height: 14px;
+  align-self: flex-start;
+}

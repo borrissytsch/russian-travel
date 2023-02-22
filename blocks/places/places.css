@@ -1,0 +1,5 @@
+.places {
+  margin: 0;
+  margin-top:calc(var(--places_top)*1px);
+  max-width: 100%;
+}                                                                                                                                                                                     /* border-color: turquoise; border-style: solid; */

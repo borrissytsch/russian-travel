@@ -1,0 +1,11 @@
+.footer {
+  margin: 0;
+  margin-top: calc(var(--footer_top)*1px);
+  margin-left: calc(var(--footer_left)*1px);
+  margin-right: calc(var(--footer_right)*1px);
+  margin-bottom: calc(var(--footer_bot)*1px);
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}                                                                                                                                                                                           /* border-style: solid; border-color: red; */

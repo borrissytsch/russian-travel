@@ -1,0 +1,15 @@
+.table__cell {
+  margin: 0;
+  padding: 0;
+  margin-bottom: calc(var(--table_cell_bot)*1px);
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: var(--table_img_col) var(--table_txt_col);
+  grid-template-rows: auto;
+  row-gap: calc(var(--table_rowgap)*1px);
+  column-gap: calc(var(--table_colgap)*1px);
+}                                                                                                                                                                                    /* border: 2px dotted deepskyblue; */
+
+.table__cell:last-of-type {
+  margin-bottom: 0;
+}

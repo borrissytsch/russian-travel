@@ -1,0 +1,6 @@
+.table__image {
+  margin: 0;
+  width: 100%;
+  height: vw;
+  object-fit: cover;
+}                                                                                                                                                                                                                        /* outline: 1px solid red; */

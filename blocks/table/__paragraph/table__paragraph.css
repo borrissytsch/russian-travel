@@ -1,0 +1,11 @@
+.table__paragraph {
+  margin: 0;
+  margin-bottom: calc(var(--table_prg_bot)*1px);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+ }                                                                                                                                                                                     /* outline: 1px dashed darkgreen; */
+
+.table__paragraph:last-of-type {
+  margin-bottom: 0;
+}

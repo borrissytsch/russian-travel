@@ -1,0 +1,8 @@
+.table__link-label {
+  margin: 0;
+  margin-bottom: calc(var(--table_lnk_bot)*1px);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  color: #aaaaaa;
+}                                                                                                                                                                                                      /* outline: 1px dashed darkgreen; */

@@ -1,0 +1,9 @@
+.footer__links {
+  margin: 0;
+  padding: 0;
+  width: calc(var(--footer_links_width)*1px);
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  column-gap: 18px;
+  list-style-type: none;
+}                                                                                                                                                                                         /* border-color: turquoise; border-style: solid; */

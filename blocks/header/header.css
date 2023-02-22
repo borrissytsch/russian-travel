@@ -1,0 +1,10 @@
+.header {
+  max-width: 100%;
+  max-height: calc(var(--header_height)*1px);
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}                                                                                                                                                                                        /* border-color: red; border-style: solid; */

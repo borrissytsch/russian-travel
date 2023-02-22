@@ -1,0 +1,8 @@
+.table {
+  margin: 0;
+  padding: 0;
+  margin-left:calc((var(--table_left)/var(--page_width))*100%);
+  margin-right: calc((var(--table_right)/var(--page_width))*100%);
+  max-width: 100%;
+  list-style-type: none;
+}                                                                                                                                                                                         /* border-color:blueviolet; border-style: dashed; */
