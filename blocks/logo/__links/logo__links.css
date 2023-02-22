@@ -4,7 +4,7 @@
   margin-top: calc((var(--logo_link_topmarg) - var(--logo_top_marg))*1px);
   margin-bottom: calc((var(--logo_top_marg) + var(--logo_height) - var(--logo_link_topmarg) - var(--logo_link_height))*1px);
   width: calc((var(--logo_link_width)*2 + var(--logo_link_gap))*1px);
-  height: calc(var(--logo_link_height)*1px);                                                   
+  height: calc(var(--logo_link_height)*1px);
   display: flex;
   flex-direction: row;
   justify-content: space-between;

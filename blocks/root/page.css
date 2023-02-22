@@ -62,7 +62,7 @@
   --conclusion_top: var(--default_section_top);
   --conlusion_left: var(--default_section_left);
   --conlusion_right: var(--conlusion_left);
-  --conclusion_width: calc(var(--page_width) - conlusion_right - (--conlusion_left));
+  --conclusion_width: calc(var(--page_width) - var(--conlusion_right) - var(--conlusion_left));
   --concl_title_top: 245;
   --concl_title_left: 312;
   --concl_title_right: var(--concl_title_left);

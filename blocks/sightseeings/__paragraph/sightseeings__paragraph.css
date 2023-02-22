@@ -4,7 +4,7 @@
   margin-left: var(--items_left);
   margin-right: var(--items_right);
   width: var(--items_width);
-  min-height: calc(var(--sight_rev_parhgt)*1px); 
+  min-height: calc(var(--sight_rev_parhgt)*1px);
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
