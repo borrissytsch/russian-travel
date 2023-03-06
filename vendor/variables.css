@@ -94,11 +94,9 @@
     --table_img_size: 440;
     --table_colgap: 37;
     --table_prg_bot: 26;
-  
     --conlusion_left: 0;
     --conclusion_width: 1024;
     --conclusion_height: 640;
-
     --concl_title_left: 232;
   }
 }
@@ -116,7 +114,6 @@
     --travel_berth_width: 768;
     --travel_berth_height: 480;
     --travel_picap_leftmrg: 24;
-
     --travel_review_left: var(--default_section_left);
     --travel_review_right: var(--travel_review_left);
     --travel_review_width: 676;
@@ -131,7 +128,6 @@
     --table_colgap: 28;
     --table_rowgap: 25;
     --table_prg_bot: 25;
-
     --conclusion_top: 90;
     --conlusion_left: 0;
     --conclusion_width: 768;
@@ -159,7 +155,6 @@
     --travel_review_left: var(--default_section_left);
     --travel_review_right: var(--travel_review_left);
     --travel_review_width: 492;
-
     --sight_items_left: 24;
     --sight_items_right: 24;
     --num_gricols: 2;
@@ -170,7 +165,6 @@
     --table_cell_bot: 50;
     --table_rowgap: 32;
     --table_prg_bot: 25;
-
     --conclusion_top: 90;
     --conlusion_left: 0;
     --conclusion_width: 540;
@@ -180,6 +174,7 @@
     --footer_bot: 18;
   }
 }
+
 @media screen and (min-width: 321px) and (max-width: 540px) {
   .variables {
   --dbg_media_trace_content: " 321-540";
@@ -187,7 +182,6 @@
   --page_width: 320;
   --default_section_top: 64;
   --default_section_left: 16;
-
   --logo_top_marg: 16;
   --logo_width: 142;
   --logo_height: 42;
@@ -217,7 +211,6 @@
   --table_cell_bot: 50;
   --table_rowgap: 32;
   --table_prg_bot: 25;
-
   --conclusion_top: 66;
   --conlusion_left: 0;
   --conclusion_width: 320;
@@ -238,7 +231,6 @@
     --page_width: 320;
     --default_section_top: 64;
     --default_section_left: 16;
-
     --logo_top_marg: 16;
     --logo_width: 142;
     --logo_height: 42;
@@ -253,7 +245,6 @@
     --travel_berth_width: 320;
     --travel_berth_height: 200;
     --travel_picap_leftmrg: 16;
-
     --travel_review_left: var(--default_section_left);
     --travel_review_right: var(--travel_review_left);
     --travel_review_width: 288;
@@ -269,7 +260,6 @@
     --table_cell_bot: 50;
     --table_rowgap: 32;
     --table_prg_bot: 25;
-
     --conclusion_top: 66;
     --conlusion_left: 0;
     --conclusion_width: 320;
