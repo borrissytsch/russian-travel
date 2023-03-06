@@ -1,0 +1,25 @@
+.travel__subtitle {
+  margin-top: calc((var(--travel_subtitle_topmrg)/var(--page_width))*100%);
+  margin-bottom: calc((var(--travel_subtitle_botmrg)/var(--page_width))*100%);
+  max-width: calc((1 - var(--travel_subtitle_sidemgr)/var(--page_width)*2)*100%);
+  line-height: 36px;
+  font-size: 30px;
+  font-weight: 400;
+}                                                                                                                                                                                                 /* border-color:blueviolet; border-style: dashed; */
+
+@media screen and (min-width: 541px) and (max-width: 767px) {  
+  .travel__subtitle {
+    line-height: 24px;
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 540px) {
+  .travel__subtitle {
+    line-height: 20px;
+    font-size: 16px;
+  }
+
+  .travel__subtitle::first-line {
+    content: "Настоящая страна не в выпусках новостей, а здесь.";
+  }
+}

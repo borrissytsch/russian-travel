@@ -1,8 +1,0 @@
-.sightseeings__review {
-  margin: 0;
-  max-width: 100%;
-  min-height: calc((var(--sight_rev_titlehgt) + var(--sight_rev_partop) + var(--sight_rev_parhgt) + var(--sight_rev_reftop) + var(--sight_rev_refhgt)*1px));
-  --items_left: calc((var(--sight_rev_left)/var(--page_width))*100%);
-  --items_right: calc((var(--sight_rev_right)/var(--page_width))*100%);
-  --items_width: calc((var(--sight_rev_width)/var(--page_width))*100%);
-}                                                                                                                                                                                           /* border-color:blueviolet; border-style: dashed; */

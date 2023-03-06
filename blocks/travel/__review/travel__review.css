@@ -1,0 +1,9 @@
+.travel__review {
+  margin-top: calc(var(--travel_review_top)*1px);
+  max-width: 100%;
+  --items_left: calc(var(--travel_review_left)*1px);
+  --items_right: calc(var(--travel_review_right)*1px);
+  --items_width: calc(var(--travel_review_width)*1px);
+  align-self: flex-start;
+  text-align: left;
+}                                                                                                                                                                                          /* border-color:blueviolet; border-style: dashed; */

@@ -1,11 +1,18 @@
 .table__paragraph {
-  margin: 0;
+  margin: 0 auto;
   margin-bottom: calc(var(--table_prg_bot)*1px);
   font-size: 18px;
   font-weight: 400;
   line-height: 29px;
- }                                                                                                                                                                                     /* outline: 1px dashed darkgreen; */
+}                                                                                                                                                                                      /* outline: 1px dashed darkgreen; */
 
 .table__paragraph:last-of-type {
   margin-bottom: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .table__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+  }
 }

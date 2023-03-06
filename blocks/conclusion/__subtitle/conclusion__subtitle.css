@@ -1,13 +1,33 @@
 .conclusion__subtitle {
-  margin: 0;
-  padding: 0;
-  margin-top: calc(var(--concl_subtitle_top)*1px);
+  margin: 0 auto;
   width: calc(var(--concl_subtitle_width)*1px);
-  min-height: calc(var(--concl_subtitle_height)*1px);
+  align-self: center;
   font-size: 18px;
   font-weight: 400;
   line-height: 22px;
   text-align: center;
-  text-decoration: none;
-  color: #ffffff;
-}                                                                                                                                                                                     /*  border-color:blueviolet; border-style: dashed; */
+}                                                                                                                                                                                          /* border: 2px dotted deepskyblue; */
+
+.conclusion__subtitle::before {
+  content: "По мотивам учебной темы ";
+}
+
+.conclusion__subtitle::after {
+  content: " от столицы до Байкала на электричках.";
+}
+
+@media screen and (min-width: 320px) and (max-width: 540px) {
+  .conclusion__subtitle {
+    white-space: pre;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .conclusion__subtitle::before {
+    content: "По мотивам учебной темы\A";
+  }
+  
+  .conclusion__subtitle::after {
+    content: "\Aот столицы до Байкала на электричках.";
+  }
+}

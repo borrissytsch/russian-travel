@@ -1,0 +1,8 @@
+.travel__pic-caption {
+  margin: 0 auto;
+  padding-top: calc(var(--travel_picap_topmrg)*1px);
+  margin-left: calc(var(--travel_picap_leftmrg)*1px);
+  font-size: 10px;
+  line-height: 14px;
+  align-self: flex-start;
+}                                                                                                                                                                /* border-color:blueviolet; border-style: dashed; */

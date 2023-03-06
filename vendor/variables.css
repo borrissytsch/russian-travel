@@ -1,0 +1,287 @@
+.variables {
+  --conclusion_2baycal_image: url(./../../images/conclusion/conclusion_tobaycalbydogs.jpg);
+  --conclusion_2baycal_image_1024x640: url(./../../images/conclusion/conclusion_tobaycalbydogs_tiny_1024x640.jpg);
+  --conclusion_2baycal_image_768x480: url(./../../images/conclusion/conclusion_tobaycalbydogs_tiny_768x480.jpg);
+  --conclusion_2baycal_image_320x200: url(./../../images/conclusion/conclusion_tobaycalbydogs_tiny_320x200.jpg);
+  /* ---------------------------- General config ---------------------------- */
+  --page_width: 1280;
+  --default_section_top: 92;
+  --default_section_left: 48;
+  --dbg_media_trace: 0;
+  --dbg_media_trace_content: " \2265 1280";
+  --dbg_media_trace_len: 84;
+   /* ---------------------------- Header config ---------------------------- */
+  --logo_top_marg: 28;
+  --logo_side_marg: var(--default_section_left);
+  --logo_width: 176;
+  --logo_height: 52;
+  --logo_link_topmarg: 46;
+  --logo_link_width: 30;
+  --logo_link_height: 28;
+  --logo_link_gap: 18;
+  --header_height: calc(var(--logo_top_marg) + var(--logo_height));
+  /* ---------------------------- Content config ---------------------------- */
+  --content_top: 56;
+  --travel_title_sidemgr: 280;
+  --travel_subtitle_topmrg: 32;
+  --travel_subtitle_sidemgr: 320;
+  --travel_subtitle_botmrg: 64;
+  --travel_berth_sidemgr: 148;
+  --travel_berth_width: 984;
+  --travel_berth_height: 615;
+  --travel_picap_topmrg: 8;
+  --travel_picap_leftmrg: var(--travel_berth_sidemgr);
+  --travel_review_top: var(--default_section_top);
+  --travel_review_left: 148;
+  --travel_review_right: 442;
+  --travel_review_width: 690;
+  --travel_review_partop: 40;
+  --travel_review_reftop: 33;
+
+  --sight_items_top: var(--default_section_top);
+  --sight_items_left: var(--default_section_left);
+  --sight_items_right: var(--sight_items_left);
+  --num_gricols:4;
+  --sight_table_gap: 16;
+  --sight_image_width: 284;
+  --sight_image_hight: 213;
+
+  --places_top: var(--default_section_top);
+  --table_left: 148;
+  --table_right: var(--table_left);
+  --table_cell_bot: 80;
+  --table_img_size: 460;
+  --table_img_col: 49fr;
+  --table_txt_col: 51fr;
+  --table_colgap: 40;
+  --table_rowgap: 48;
+  --table_lnk_bot: 12;
+  --table_prg_bot: 28;
+
+  --conclusion_top: var(--default_section_top);
+  --conclusion_left: var(--default_section_left);
+  --conclusion_right: var(--conclusion_left);
+  --conclusion_width: calc(var(--page_width) - var(--conclusion_right) - var(--conclusion_left));
+  --conclusion_height: 740;
+  --concl_title_left: 312;
+  --concl_title_right: var(--concl_title_left);
+  --concl_title_width: 560;
+  --concl_subtitle_top: 32;
+  --concl_subtitle_width: 360;
+  /* ---------------------------- Footer config ---------------------------- */
+  --footer_top: var(--default_section_top);
+  --footer_left: var(--default_section_left);
+  --footer_right: var(--footer_left);
+  --footer_bot: 24;
+}
+  
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .variables {
+    --dbg_media_trace_content: " 1024-1279";
+    --conclusion_2baycal_image: var(--conclusion_2baycal_image_1024x640);
+    --page_width: 1024;
+    --content_top: 48;
+    --travel_title_sidemgr: 152;
+    --travel_subtitle_sidemgr: 192;
+    --travel_subtitle_botmrg: 56;
+    --travel_berth_sidemgr: 48;
+    --travel_berth_width: 928;
+    --travel_berth_height: 580;
+
+    --travel_review_left: 48;
+    --travel_review_right: 286;
+    --num_gricols: 3;
+    --sight_table_gap: 14;
+    --sight_image_width: 300;
+    --sight_image_hight: 225;
+    --table_left: 48;
+    --table_img_size: 440;
+    --table_colgap: 37;
+    --table_prg_bot: 26;
+  
+    --conlusion_left: 0;
+    --conclusion_width: 1024;
+    --conclusion_height: 640;
+
+    --concl_title_left: 232;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .variables {
+    --dbg_media_trace_content: " 768-1023";
+    --conclusion_2baycal_image: var(--conclusion_2baycal_image_768x480);
+    --page_width: 768;
+    --default_section_top: 88;
+    --default_section_left: 24;
+    --travel_title_sidemgr: 24;
+    --travel_subtitle_sidemgr: 64;
+    --travel_berth_sidemgr: 0;
+    --travel_berth_width: 768;
+    --travel_berth_height: 480;
+    --travel_picap_leftmrg: 24;
+
+    --travel_review_left: var(--default_section_left);
+    --travel_review_right: var(--travel_review_left);
+    --travel_review_width: 676;
+    --sight_items_left: 24;
+    --sight_items_right: 24;
+    --num_gricols: 2;
+    --sight_image_width: 352;
+    --sight_image_hight: 264;
+    --table_left: 24;
+    --table_img_size: 340;
+    --table_cell_bot: 73;
+    --table_colgap: 28;
+    --table_rowgap: 25;
+    --table_prg_bot: 25;
+
+    --conclusion_top: 90;
+    --conlusion_left: 0;
+    --conclusion_width: 768;
+    --conclusion_height: 480;
+    --concl_title_left: 104;
+    --concl_title_width: 540;
+    --footer_bot: 18;
+  }
+}
+
+@media screen and (min-width: 541px) and (max-width: 767px) {
+  .variables {
+    --dbg_media_trace_content: " 541-767";
+    --conclusion_2baycal_image: var(--conclusion_2baycal_image_768x480);
+    --page_width: 524;
+    --default_section_top: 88;
+    --default_section_left: 16;
+    --travel_title_sidemgr: 24;
+    --travel_subtitle_sidemgr: 64;
+    --travel_subtitle_botmrg: 56;
+    --travel_berth_sidemgr: 0;
+    --travel_berth_width: 540;
+    --travel_berth_height: 320;
+    --travel_picap_leftmrg: 24;
+    --travel_review_left: var(--default_section_left);
+    --travel_review_right: var(--travel_review_left);
+    --travel_review_width: 492;
+
+    --sight_items_left: 24;
+    --sight_items_right: 24;
+    --num_gricols: 2;
+    --sight_image_width: 352;
+    --sight_image_hight: 264;
+    --table_left: 16;
+    --table_img_size: 340;
+    --table_cell_bot: 50;
+    --table_rowgap: 32;
+    --table_prg_bot: 25;
+
+    --conclusion_top: 90;
+    --conlusion_left: 0;
+    --conclusion_width: 540;
+    --conclusion_height: 460;
+    --concl_title_left: 104;
+    --concl_title_width: 480;
+    --footer_bot: 18;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 540px) {
+  .variables {
+  --dbg_media_trace_content: " 321-540";
+  --conclusion_2baycal_image: var(--conclusion_2baycal_image_320x200);
+  --page_width: 320;
+  --default_section_top: 64;
+  --default_section_left: 16;
+
+  --logo_top_marg: 16;
+  --logo_width: 142;
+  --logo_height: 42;
+  --logo_link_topmarg: 30;
+  --logo_link_width: 22;
+  --logo_link_height: 20;
+  --travel_title_sidemgr: 16;
+  --travel_subtitle_topmrg: 16;
+  --travel_subtitle_sidemgr: 16;
+  --travel_subtitle_botmrg: 40;
+  --travel_berth_sidemgr: 0;
+  --travel_berth_width: 320;
+  --travel_berth_height: 200;
+  --travel_picap_leftmrg: 16;
+  --travel_review_left: var(--default_section_left);
+  --travel_review_right: var(--travel_review_left);
+  --travel_review_width: 288;
+  --travel_review_reftop: 34;
+  --sight_items_left: var(--default_section_left);
+  --sight_items_right: var(--sight_items_left);
+  --num_gricols: 1;
+  --sight_table_gap: 12;
+  --sight_image_width: 288;
+  --sight_image_hight: 216;
+  --table_left: 16;
+  --table_img_size: 320;
+  --table_cell_bot: 50;
+  --table_rowgap: 32;
+  --table_prg_bot: 25;
+
+  --conclusion_top: 66;
+  --conlusion_left: 0;
+  --conclusion_width: 320;
+  --conclusion_height: 200;
+  --concl_title_left: 16;
+  --concl_title_width: 254;
+  --concl_subtitle_top: 16;
+  --concl_subtitle_width: 276;
+  --footer_top: var(--default_section_top);
+  --footer_right: 178;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .variables {
+    --dbg_media_trace_content: "\2264 320";
+    --conclusion_2baycal_image: var(--conclusion_2baycal_image_320x200);
+    --page_width: 320;
+    --default_section_top: 64;
+    --default_section_left: 16;
+
+    --logo_top_marg: 16;
+    --logo_width: 142;
+    --logo_height: 42;
+    --logo_link_topmarg: 30;
+    --logo_link_width: 22;
+    --logo_link_height: 20;
+    --travel_title_sidemgr: 16;
+    --travel_subtitle_topmrg: 16;
+    --travel_subtitle_sidemgr: 16;
+    --travel_subtitle_botmrg: 40;
+    --travel_berth_sidemgr: 0;
+    --travel_berth_width: 320;
+    --travel_berth_height: 200;
+    --travel_picap_leftmrg: 16;
+
+    --travel_review_left: var(--default_section_left);
+    --travel_review_right: var(--travel_review_left);
+    --travel_review_width: 288;
+    --travel_review_reftop: 34;
+    --sight_items_left: var(--default_section_left);
+    --sight_items_right: var(--sight_items_left);
+    --num_gricols: 1;
+    --sight_table_gap: 12;
+    --sight_image_width: 288;
+    --sight_image_hight: 216;
+    --table_left: 16;
+    --table_img_size: 320;
+    --table_cell_bot: 50;
+    --table_rowgap: 32;
+    --table_prg_bot: 25;
+
+    --conclusion_top: 66;
+    --conlusion_left: 0;
+    --conclusion_width: 320;
+    --conclusion_height: 200;
+    --concl_title_left: 16;
+    --concl_title_width: 254;
+    --concl_subtitle_top: 16;
+    --concl_subtitle_width: 276;
+    --footer_right: 178;
+  }
+}

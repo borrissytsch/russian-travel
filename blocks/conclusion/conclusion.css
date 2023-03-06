@@ -1,20 +1,14 @@
 .conclusion {
-  margin: 0;
-  padding: 0;
   margin-top: calc(var(--conclusion_top)*1px);
-  margin-left: calc((var(--conlusion_left)/var(--page_width))*100%);
-  margin-right: calc((var(--conlusion_right)/var(--page_width))*100%);
-  max-width: calc((1 - (var(--conlusion_left) + var(--conlusion_right))/var(--page_width))*100%);
-  min-height: 57.81vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-image: var(--conclusion_2baycal_image);
+  margin-left: calc(var(--conclusion_left)*1px);
+  margin-right: calc(var(--conclusion_right)*1px);
+  max-width: calc(var(--conclusion_width)*1px);
+  height: calc(var(--conclusion_height)*1px);
+  background-image: linear-gradient(rgba(42, 44, 47, 0.3), rgba(42, 44, 47, 0.3)), var(--conclusion_2baycal_image);
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #2A2C2F;
-}                                                                                                                                                                                             /* border-color: turquoise; border-style: solid; */
+}                                                                                                                                                                                   /* border-color: turquoise; border-style: solid; */
 
 .conclusion:hover {
-  opacity: 0.3;
+  background-image: linear-gradient(rgba(42, 44, 47, 0.7), rgba(42, 44, 47, 0.7)), var(--conclusion_2baycal_image);
 }

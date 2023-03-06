@@ -1,0 +1,14 @@
+.header__link-item {
+  width: calc(var(--logo_link_width)*1px);
+  height: calc(var(--logo_link_height)*1px);
+}                                                                                                                                                                 /* border-color:blueviolet; border-style: dashed; */
+
+.header__link-item:first-of-type {
+  width: calc((var(--logo_link_width) + var(--dbg_media_trace_len)*var(--dbg_media_trace))*1px);
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.header__link-item:first-of-type::after {
+  content: var(--dbg_media_trace_content);
+}

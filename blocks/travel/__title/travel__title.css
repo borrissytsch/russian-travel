@@ -1,0 +1,17 @@
+.travel__title {
+  margin: 0 auto;
+  margin-left: calc(var(--travel_title_sidemgr)/var(--page_width)*100%);
+  margin-right: calc(var(--travel_title_sidemgr)/var(--page_width)*100%);
+  max-width: calc((1 - 2*var(--travel_title_sidemgr)/var(--page_width))*100%);
+  line-height: 100px;
+  font-size: 96px;
+  font-weight: 900;
+}                                                                                                                                                                                /* border-color:blueviolet; border-style: dashed; */
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .travel__title {
+    max-width: 280px;
+    line-height: 44px;
+    font-size: 40px;
+  }
+}

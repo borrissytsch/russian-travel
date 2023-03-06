@@ -1,0 +1,7 @@
+.travel__upper-berth-img {
+  margin-left: calc(var(--travel_berth_sidemgr)*1px);
+  margin-right: calc(var(--travel_berth_sidemgr)*1px);
+  max-width: calc(var(--travel_berth_width)*1px);
+  max-height: calc(var(--travel_berth_height)*1px);
+  object-fit: cover;
+}                                                                                                                                                                                                  /* border-color:blueviolet; border-style: dashed; */

@@ -1,5 +1,4 @@
 .footer {
-  margin: 0;
   margin-top: calc(var(--footer_top)*1px);
   margin-left: calc(var(--footer_left)*1px);
   margin-right: calc(var(--footer_right)*1px);
@@ -8,4 +7,22 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}                                                                                                                                                                                           /* border-style: solid; border-color: red; */
+}                                                                                                                                                                                                /* border-style: solid; border-color: red; */
+
+@media screen and (min-width: 541px) and (max-width: 767px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 48px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 540px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 48px;
+  }
+}

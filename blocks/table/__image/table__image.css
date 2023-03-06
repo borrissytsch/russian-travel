@@ -1,6 +1,6 @@
 .table__image {
   margin: 0;
-  width: 100%;
-  height: vw;
+  max-width: calc(var(--table_img_size)*1px);
+  max-height: calc(var(--table_img_size)*1px);
   object-fit: cover;
-}                                                                                                                                                                                                                        /* outline: 1px solid red; */
+}                                                                                                                                                                                          /* outline: 1px solid red; */

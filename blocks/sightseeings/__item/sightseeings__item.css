@@ -1,7 +1,4 @@
 .sightseeings__item {
-  margin: 0;
-  padding: 0;
   max-width: calc(var(--sight_image_width)*1px);
   max-height: calc(var(--sight_image_hight)*1px);
-  object-fit: cover;
-}                                                                                                                                                                                        /* border: 2px dotted deepskyblue; */
+}                                                                                                                                                                                                          /* border: 2px dotted deepskyblue; */

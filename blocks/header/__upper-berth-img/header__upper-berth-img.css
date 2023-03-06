@@ -1,8 +1,0 @@
-.header__upper-berth-img {
-  margin: 0;
-  margin-left: calc(var(--head_berth_sidemgr)*1px);
-  margin-right: calc(var(--head_berth_sidemgr)*1px);
-  max-width: calc(var(--head_berth_width)*1px);
-  max-height: calc(var(--head_berth_height)*1px);
-  object-fit: cover;
-}

@@ -1,10 +1,10 @@
 .header {
-  max-width: 100%;
-  max-height: calc(var(--header_height)*1px);
+  margin-top: calc(var(--logo_top_marg)*1px);
+  margin-left: calc(var(--logo_side_marg)*1px);
+  margin-right: calc(var(--logo_side_marg)*1px);
+  max-width: calc(100% - var(--logo_side_marg)*2px);
+  min-height: calc(var(--header_height)*1px);
   display: flex;
-  position: relative;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  text-align: center;
+  flex-direction: row;
+  justify-content: space-between;
 }                                                                                                                                                                                        /* border-color: red; border-style: solid; */

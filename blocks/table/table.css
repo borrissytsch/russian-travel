@@ -1,8 +1,15 @@
 .table {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
-  margin-left:calc((var(--table_left)/var(--page_width))*100%);
-  margin-right: calc((var(--table_right)/var(--page_width))*100%);
+  margin-left:calc(var(--table_left)*1px);
+  margin-right: calc(var(--table_right)*1px);
   max-width: 100%;
   list-style-type: none;
-}                                                                                                                                                                                         /* border-color:blueviolet; border-style: dashed; */
+}                                                                                                                                                                                                /* border-color:blueviolet; border-style: dashed; */
+
+@media screen and (min-width: 320px) and (max-width: 540px) {
+  .table {
+    margin-left: 0;
+    margin-right: 0;
+  } 
+}
