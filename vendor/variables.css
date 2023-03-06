@@ -37,7 +37,6 @@
   --travel_review_width: 690;
   --travel_review_partop: 40;
   --travel_review_reftop: 33;
-
   --sight_items_top: var(--default_section_top);
   --sight_items_left: var(--default_section_left);
   --sight_items_right: var(--sight_items_left);
@@ -45,7 +44,6 @@
   --sight_table_gap: 16;
   --sight_image_width: 284;
   --sight_image_hight: 213;
-
   --places_top: var(--default_section_top);
   --table_left: 148;
   --table_right: var(--table_left);
@@ -57,7 +55,6 @@
   --table_rowgap: 48;
   --table_lnk_bot: 12;
   --table_prg_bot: 28;
-
   --conclusion_top: var(--default_section_top);
   --conclusion_left: var(--default_section_left);
   --conclusion_right: var(--conclusion_left);
@@ -87,7 +84,6 @@
     --travel_berth_sidemgr: 48;
     --travel_berth_width: 928;
     --travel_berth_height: 580;
-
     --travel_review_left: 48;
     --travel_review_right: 286;
     --num_gricols: 3;
