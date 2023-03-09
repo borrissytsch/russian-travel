@@ -1,4 +1,4 @@
-.travel__rev-title {
+.review__rev-title {
   margin: 0;
   margin-left: var(--items_left);
   margin-right: calc(var(var(--page_width)*1px) - var(--items_width) - var(--items_left));
@@ -9,7 +9,7 @@
 }                                                                                                                                                                                                /* border: 2px dotted deepskyblue; */
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-  .travel__rev-title {
+  .review__rev-title {
     margin-right: var(--items_right);
     max-width: 240px;
     font-size: 32px;

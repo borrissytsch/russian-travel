@@ -1,0 +1,12 @@
+.conclusion__subtitle-factor {
+  visibility: visible;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .conclusion__subtitle-factor {
+    position: absolute;
+    top: 0;
+    left: o;
+    visibility: hidden;
+  }
+}

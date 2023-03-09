@@ -1,8 +1,15 @@
 .travel__pic-caption {
-  margin: 0 auto;
-  padding-top: calc(var(--travel_picap_topmrg)*1px);
-  margin-left: calc(var(--travel_picap_leftmrg)*1px);
+  margin-top: calc(var(--travel_picap_topmrg)*1px);
+  margin-left: calc(var(--travel_picap_leftmrg)/3*1px);
   font-size: 10px;
   line-height: 14px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
   align-self: flex-start;
 }                                                                                                                                                                /* border-color:blueviolet; border-style: dashed; */
+
+@media screen and (min-width: 320px) and (max-width: 1023px) {
+  .travel__pic-caption {
+    margin-left: calc(var(--travel_picap_leftmrg)*1px);
+  }
+}

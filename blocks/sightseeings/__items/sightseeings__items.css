@@ -1,13 +1,12 @@
 .sightseeings__items {
   margin: 0 auto;
   margin-top: calc(var(--sight_items_top)*1px);
-  margin-left: calc(var(--sight_items_left)*1px);
-  margin-right: calc(var(--sight_items_right)*1px);
+  margin-left: calc(var(--sight_items_left)/2*1px);
+  margin-right: calc(var(--sight_items_right)/2*1px);
   padding: 0;
-  max-width: 100%;
   display: grid;
   grid-template-columns: repeat(var(--num_gricols), 1fr);
   grid-template-rows: auto;
   gap: calc(var(--sight_table_gap)*1px);
   list-style-type: none;
-}                                                                                                                                                                                   /* border-color:blueviolet; border-style: dashed; */
+}                                                                                                                                                                                               /* border-color:blueviolet; border-style: dashed; */

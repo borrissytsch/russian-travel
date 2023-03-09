@@ -1,9 +1,10 @@
 .travel {
-  max-width: 100%;
+  margin-left: calc((var(--travel_berth_sidemgr)/3)*1px);
+  margin-right: calc((var(--travel_berth_sidemgr)/3)*1px);
   display: flex;
   position: relative;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   text-align: center;
-}                                                                                                                                                                                              /* border-color: turquoise; border-style: solid; */
+}                                                                                                                                                                                            /* border-color: turquoise; border-style: solid; */

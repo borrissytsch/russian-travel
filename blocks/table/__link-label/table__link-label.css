@@ -1,4 +1,5 @@
 .table__link-label {
+  margin-top: 0;
   margin-bottom: calc(var(--table_lnk_bot)*1px);
   font-size: 12px;
   font-weight: 400;
@@ -6,7 +7,3 @@
   text-transform: uppercase;
   color: #aaa;
 }                                                                                                                                                                                                /* outline: 1px dashed darkgreen; */
-
-.table__link-label::before {
-  content: "url";
-}

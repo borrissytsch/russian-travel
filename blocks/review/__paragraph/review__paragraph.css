@@ -1,4 +1,4 @@
-.travel__paragraph {
+.review__paragraph {
   margin-top: calc(var(--travel_review_partop)*1px);
   margin-left: var(--items_left);
   margin-right: calc(var(var(--page_width)*1px) - var(--items_width) - var(--items_left));

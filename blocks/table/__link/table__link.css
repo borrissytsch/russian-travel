@@ -5,3 +5,7 @@
   text-decoration: underline;
   color: white;
 }                                                                                                                                                                                            /* outline: 1px dashed darkgreen; */
+
+.table__link:hover {
+  opacity: 0.8;
+}

@@ -1,7 +1,7 @@
 .table__cell {
-  margin: 0;
+  margin-left:calc(var(--table_left)/4*1px);
+  margin-right: calc(var(--table_right)/4*1px);
   margin-bottom: calc(var(--table_cell_bot)*1px);
-  max-width: 100%;
   display: grid;
   grid-template-columns: var(--table_img_col) var(--table_txt_col);
   grid-template-rows: auto;

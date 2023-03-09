@@ -8,15 +8,7 @@
   text-align: center;
 }                                                                                                                                                                                          /* border: 2px dotted deepskyblue; */
 
-.conclusion__subtitle::before {
-  content: "По мотивам учебной темы ";
-}
-
-.conclusion__subtitle::after {
-  content: " от столицы до Байкала на электричках.";
-}
-
-@media screen and (min-width: 320px) and (max-width: 540px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .conclusion__subtitle {
     white-space: pre;
     font-size: 14px;
@@ -24,10 +16,10 @@
   }
 
   .conclusion__subtitle::before {
-    content: "По мотивам учебной темы\A";
+    content: "По мотивам учебной темы \A";
   }
-  
+
   .conclusion__subtitle::after {
-    content: "\Aот столицы до Байкала на электричках.";
+    content: "\A от столицы до Байкала на электричках.";
   }
 }

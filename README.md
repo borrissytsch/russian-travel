@@ -25,5 +25,5 @@
 
 ---
 
-[Проект опубликован на GitHub Pages](https://github.com/borrissytsch/russian-travel "Путешествие по России")
+[Проект опубликован на GitHub Pages](https://borrissytsch.github.io/russian-travel/ "Путешествие по России")
 
