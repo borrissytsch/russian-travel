@@ -2,7 +2,6 @@
   padding: 0;
   margin-top: calc((var(--logo_link_topmarg) - var(--logo_top_marg))*1px);
   margin-bottom: calc((var(--logo_top_marg) + var(--logo_height) - var(--logo_link_topmarg) - var(--logo_link_height))*1px);
-  height: calc(var(--logo_link_height)*1px);
   display: flex;
   flex-direction: row;
   gap: calc(var(--logo_link_gap)*1px);

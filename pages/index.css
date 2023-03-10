@@ -14,7 +14,6 @@
 @import url(../blocks/travel/__subtitle/travel__subtitle.css);
 @import url(../blocks/travel/__upper-berth-img/travel__upper-berth-img.css);
 @import url(../blocks/travel/__pic-caption/travel__pic-caption.css);
-@import url(../blocks/section-pass-title/section-pass-title.css);
 @import url(../blocks/review/review.css);
 @import url(../blocks/review/__rev-title/review__rev-title.css);
 @import url(../blocks/review/__paragraph/review__paragraph.css);
@@ -39,7 +38,6 @@
 @import url(../blocks/conclusion/__link/conclusion__link.css);
 @import url(../blocks/conclusion/__title/conclusion__title.css);
 @import url(../blocks/conclusion/__subtitle/conclusion__subtitle.css);
-@import url(../blocks/conclusion/__subtitle-factor/conclusion__subtitle-factor.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);

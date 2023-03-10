@@ -144,7 +144,6 @@
   }
 }
 
-
 @media screen and (min-width: 320px) and (max-width: 767px) {
   :root {
   --conclusion_2baycal_image: var(--conclusion_2baycal_image_320x200);
@@ -190,7 +189,7 @@
   --concl_title_left: 16;
   --concl_title_width: 254;
   --concl_subtitle_top: 16;
-  --concl_subtitle_width: 276;
+  --concl_subtitle_width: 280;
   --footer_top: var(--default_section_top);
   --footer_right: 178;
   }
