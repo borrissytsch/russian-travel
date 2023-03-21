@@ -1,8 +1,6 @@
 .review__rev-title {
   margin: 0;
-  margin-left: var(--items_left);
-  margin-right: calc(var(var(--page_width)*1px) - var(--items_width) - var(--items_left));
-  width: var(--items_width);
+  max-width: var(--items_width);
   font-size: 54px;
   font-weight: 900;
   line-height: 58px;

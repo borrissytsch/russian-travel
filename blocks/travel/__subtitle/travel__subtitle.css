@@ -1,11 +1,11 @@
 .travel__subtitle {
-  margin-top: calc((var(--travel_subtitle_topmrg)/var(--page_width))*100%);
+  margin-top: calc(((var(--travel_subtitle_topmrg))/var(--page_width))*100%);
   margin-bottom: calc((var(--travel_subtitle_botmrg)/var(--page_width))*100%);
-  max-width: calc((1 - var(--travel_subtitle_sidemgr)/var(--page_width)*2)*100%);
+  max-width: calc((1 - 2*var(--travel_subtitle_sidemgr)/var(--page_width))*100%);
   line-height: 36px;
   font-size: 30px;
   font-weight: 400;
-}                                                                                                                                                                                                 /* border-color:blueviolet; border-style: dashed; */
+}                                                                                                                                                          /* border-color:blueviolet; border-style: dashed; */
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .travel__subtitle {

@@ -20,18 +20,21 @@
 <main class="content">
   <section class="travel">
     <h1 class="travel__title">Путешествия по России</h1>
-    <p class="travel__subtitle">Настоящая страна не в выпусках&emsp;новостей, а здесь.</p>
+    <p class="travel__subtitle"> Настоящая страна не в выпусках новостей,&nbsp;а&nbsp;здесь.</p>
     <picture>
-      <source srcset="./images/travel/upper-berth_tiny_320x200.jpg" media="(max-width: 772px)">
-      <source srcset="./images/travel/upper-berth_tiny_768x480.jpg" media="(max-width: 1028px)">
-      <source srcset="./images/travel/upper-berth_tiny_928x580.jpg" media="(max-width: 1284px)">
+      <source srcset="./images/travel/upper-berth_tiny_320x200.jpg" media="(max-width: calc((320px + 768px)/2))">
+      <source srcset="./images/travel/upper-berth_tiny_540x338.jpg" media="(max-width: 767px)">
+      <source srcset="./images/travel/upper-berth_tiny_768x480.jpg" media="(max-width: 768px)">
+      <source srcset="./images/travel/upper-berth_tiny_748x468.jpg" media="(max-width: 788px)">
+      <source srcset="./images/travel/upper-berth_tiny_768x480.jpg" media="(max-width: calc((768px + 1024px)/2))">
+      <source srcset="./images/travel/upper-berth_tiny_928x580.jpg" media="(max-width: calc((1024px + 1280px)/2))">
       <img src="./images/travel/upper-berth_tiny.jpg" class="travel__upper-berth-img" alt="Ваша полка — верхняя">
     </picture>
     <p class="travel__pic-caption">ваша полка — верхняя</p>
   </section>  
   <section class="review">
     <h2 class="review__rev-title">Чего мы там не видели?</h2>
-    <p class="review__paragraph">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
+    <p class="review__paragraph">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но&nbsp;только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и&nbsp;проехала 20 тысяч километров по&nbsp;родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
     <ul class="review__ref-info">
       <li class="review__ref-text"><span class="review__ref-main">Часовых поясов</span>&nbsp;11</li>
       <li class="review__ref-text"><span class="review__ref-main">Объектов природного наследия ЮНЕСКО</span>&nbsp;12</li>
@@ -42,18 +45,78 @@
   </section>
   <section class="sightseeings">
     <ul class="sightseeings__items" aria-label="четыре колонки">
-      <li class="sightseeings__item"><img src="./images/sightseeings/Sights_01_train.jpg" class="sightseeings__image" alt="Поезд"></li>
-      <li class="sightseeings__item"><img src="./images/sightseeings/Sights_02_atharva-tulsi.jpg" class="sightseeings__image" alt="Самолёт"></li>
-      <li class="sightseeings__item"><img src="./images/sightseeings/Sights_03_tuman.jpg" class="sightseeings__image" alt="Туман"></li>
-      <li class="sightseeings__item"><img src="./images/sightseeings/Sights_04_sochi.jpg" class="sightseeings__image" alt="Сочи"></li>
-      <li class="sightseeings__item"><img src="./images/sightseeings/Sights_05_arisa-chattasa.jpg" class="sightseeings__image" alt="Самолёт"></li>
-      <li class="sightseeings__item"><img src="./images/sightseeings/Sights_06_baycal.jpg" class="sightseeings__image" alt="Байкал"></li>
-      <li class="sightseeings__item"><img src="./images/sightseeings/Sights_07_elbrus.jpg" class="sightseeings__image" alt="Эльбрус"></li>
-      <li class="sightseeings__item"><img src="./images/sightseeings/Sights_08_stanislav-kondratiev.jpg" class="sightseeings__image" alt="Береговая линия"></li>
-      <li class="sightseeings__item"><img src="./images/sightseeings/Sights_09_kamchatka.jpg" class="sightseeings__image" alt="Камчатка"></li>
-      <li class="sightseeings__item"><img src="./images/sightseeings/Sights_10_kamchatka2.jpg" class="sightseeings__image" alt="Камчатка"></li>
-      <li class="sightseeings__item"><img src="./images/sightseeings/Sights_11_baycal2.jpg" class="sightseeings__image" alt="Байкал"></li>
-      <li class="sightseeings__item"><img src="./images/sightseeings/Sights_12_ergak1.jpg" class="sightseeings__image" alt="Ергаки"></li>
+      <li class="sightseeings__item">
+        <picture>
+          <source srcset="./images/sightseeings/Sights_01_train_1024.jpg" media="(max-width: 1024px)">
+          <img src="./images/sightseeings/Sights_01_train.jpg" class="sightseeings__image" alt="Поезд">
+        </picture>
+      </li>
+      <li class="sightseeings__item">
+        <picture>
+          <source srcset="./images/sightseeings/Sights_02_atharva-tulsi_1024.jpg" media="(max-width: 1024px)">
+          <img src="./images/sightseeings/Sights_02_atharva-tulsi.jpg" class="sightseeings__image" alt="Самолёт">
+        </picture>
+      </li>
+      <li class="sightseeings__item">
+        <picture>
+          <source srcset="./images/sightseeings/Sights_03_tuman_1024.jpg" media="(max-width: 1024px)">
+          <img src="./images/sightseeings/Sights_03_tuman.jpg" class="sightseeings__image" alt="Туман">
+        </picture>
+      </li>
+      <li class="sightseeings__item">
+        <picture>
+          <source srcset="./images/sightseeings/Sights_04_sochi_1024.jpg" media="(max-width: 1024px)">
+          <img src="./images/sightseeings/Sights_04_sochi.jpg" class="sightseeings__image" alt="Сочи">
+        </picture>
+      </li>
+      <li class="sightseeings__item">
+        <picture>
+          <source srcset="./images/sightseeings/Sights_05_arisa-chattasa_1024.jpg" media="(max-width: 1024px)">
+          <img src="./images/sightseeings/Sights_05_arisa-chattasa.jpg" class="sightseeings__image" alt="Самолёт">
+        </picture>
+      </li>
+      <li class="sightseeings__item">
+        <picture>
+          <source srcset="./images/sightseeings/Sights_06_baycal_1024.jpg" media="(max-width: 1024px)">
+          <img src="./images/sightseeings/Sights_06_baycal.jpg" class="sightseeings__image" alt="Байкал">
+        </picture>
+      </li>
+      <li class="sightseeings__item">
+        <picture>
+          <source srcset="./images/sightseeings/Sights_07_elbrus_1024.jpg" media="(max-width: 1024px)">
+          <img src="./images/sightseeings/Sights_07_elbrus.jpg" class="sightseeings__image" alt="Эльбрус">
+        </picture>
+      </li>
+      <li class="sightseeings__item">
+        <picture>
+          <source srcset="./images/sightseeings/Sights_08_stanislav-kondratiev_1024.jpg" media="(max-width: 1024px)">
+          <img src="./images/sightseeings/Sights_08_stanislav-kondratiev.jpg" class="sightseeings__image" alt="Береговая линия">
+        </picture>
+      </li>
+      <li class="sightseeings__item">
+        <picture>
+          <source srcset="./images/sightseeings/Sights_09_kamchatka_1024.jpg" media="(max-width: 1024px)">
+          <img src="./images/sightseeings/Sights_09_kamchatka.jpg" class="sightseeings__image" alt="Камчатка">
+        </picture>
+      </li>
+      <li class="sightseeings__item">
+        <picture>
+          <source srcset="./images/sightseeings/Sights_10_kamchatka2_1024.jpg" media="(max-width: 1024px)">
+          <img src="./images/sightseeings/Sights_10_kamchatka2.jpg" class="sightseeings__image" alt="Камчатка">
+        </picture>
+      </li>
+      <li class="sightseeings__item">
+        <picture>
+          <source srcset="./images/sightseeings/Sights_11_baycal2_1024.jpg" media="(max-width: 1024px)">
+          <img src="./images/sightseeings/Sights_11_baycal2.jpg" class="sightseeings__image" alt="Байкал">
+        </picture>
+      </li>
+      <li class="sightseeings__item">
+        <picture>
+          <source srcset="./images/sightseeings/Sights_12_ergak1_1024.jpg" media="(max-width: 1024px)">
+          <img src="./images/sightseeings/Sights_12_ergak1.jpg" class="sightseeings__image" alt="Ергаки">
+        </picture>
+      </li>
     </ul>
   </section>
   <section class="places" aria-label="две колонки">
@@ -66,11 +129,11 @@
         </div>
         <picture>
           <source srcset="./images/places/places_01_kurische_nehrung_320x320.jpg" media="(max-width: 767px)">
-            <img class="table__image" src="./images/places/places_01_kurische_nehrung.jpg" alt="Куршская коса">
+          <img class="table__image" src="./images/places/places_01_kurische_nehrung.jpg" alt="Куршская коса">
         </picture>
         <div class="table__text">
-          <p class="table__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная природная зона на краю российского анклава.</p>
-          <p class="table__paragraph">На этом Калининградская область не заканчивается. Для путешественника и исследователя там же по соседству — самая западная точка России, Балтийская коса, — и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.</p>
+          <p class="table__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных&nbsp;горизонта — спокойного Куршского залива с одной стороны и&nbsp;подёрнутого рябью волн Балтийского моря с&nbsp;другой. Уникальная природная зона на краю российского анклава.</p>
+          <p class="table__paragraph">На этом Калининградская область не заканчивается. Для&nbsp;путешественника и&nbsp;исследователя там же по соседству&nbsp;— самая западная точка России, Балтийская коса, — и&nbsp;немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает&nbsp;суету, окуная в&nbsp;спокойствие природы и&nbsp;запах&nbsp;стального, прохладного моря.</p>
         </div>
       </li>
       <li class="table__cell">
@@ -84,10 +147,9 @@
           <img class="table__image" src="./images/places/places_02_colsky.jpg" alt="Кольский">
         </picture>
         <div class="table__text">
-          <p class="table__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на юг — 
-            тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.</p>
-          <p class="table__paragraph">Возможно, вы смотрели Звягинцева и даже слышали историю арктического фестиваля в Териберке. Возможно, слово «Хибины» не осталось под снегом школьных воспоминаний об уроках географии. Возможно, вы не интересовались пронизывающей земную кору сверхглубокой скважиной, а от апатитов вас давно накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом
-            в Мурманск.</p>
+          <p class="table__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от&nbsp;которой на юг — тайга,&nbsp;а&nbsp;на&nbsp;север — Ледовитый океан, прикидывающийся Баренцевым морем.</p>
+          <p class="table__paragraph">Возможно, вы смотрели Звягинцева&nbsp;и&nbsp;даже слышали историю&nbsp;арктического фестиваля в&nbsp;Териберке. Возможно, слово «Хибины» не осталось под снегом школьных воспоминаний об&nbsp;уроках географии. Возможно, вы не интересовались пронизывающей земную кору сверхглубокой скважиной, а от апатитов вас давно&nbsp;накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом
+            в&nbsp;Мурманск.</p>
         </div>
       </li>
       <li class="table__cell">
@@ -101,9 +163,8 @@
           <img class="table__image" src="./images/places/places_03_altay.jpg" alt="Алтай">
         </picture>
         <div class="table__text">
-          <p class="table__paragraph">Алтай — одно из красивейших мест в России. 
-            В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и озёра. А если вы откроете в автомобиле окна, сможете познакомиться с невидимым чудом здешних мест — горным воздухом.</p>
-          <p class="table__paragraph">Климат на Алтае умеренный, поэтому ехать сюда лучше всего летом. Так вы увидите всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы, а на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
+          <p class="table__paragraph">Алтай — одно из красивейших мест в&nbsp;России. В&nbsp;первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и озёра. А&nbsp;если&nbsp;вы откроете в&nbsp;автомобиле окна, сможете познакомиться с&nbsp;невидимым чудом здешних мест — горным воздухом.</p>
+          <p class="table__paragraph">Климат на Алтае умеренный, поэтому&nbsp;ехать сюда лучше всего летом. Так вы увидите всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси,&nbsp;над хребтами летают орлы, а&nbsp;на&nbsp;равнинах пасутся косули. И&nbsp;знаменитые манулы — тоже обитатели Алтайского края.</p>
         </div>
       </li>
       <li class="table__cell">
@@ -117,10 +178,8 @@
           <img class="table__image" src="./images/places/places_04_baycal_hiver.jpg" alt="Зимний Байкал">
         </picture>
         <div class="table__text">
-          <p class="table__paragraph">Всем известен Байкал как крупнейшее озеро 
-            в мире. Многие также знают, что это самый большой источник пресной воды и одно из красивейших мест в России.</p>
-          <p class="table__paragraph">Конечно, это всё так. Но Байкал ещё идеальное место для&nbsp;соревнований по скийорингу. Это такой вид спорта, когда лыжник привязывает себя 
-            к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
+          <p class="table__paragraph">Всем известен Байкал как крупнейшее озеро в&nbsp;мире.&nbsp;Многие также знают, что это самый большой источник&nbsp;пресной воды и одно из&nbsp;красивейших мест в&nbsp;России.</p>
+          <p class="table__paragraph">Конечно, это всё так. Но Байкал ещё идеальное место&nbsp;для соревнований по скийорингу. Это такой вид&nbsp;спорта, когда лыжник привязывает себя к мотоциклу, и&nbsp;тандем старается развить как можно бóльшую скорость&nbsp;на льду. В марте 2019 года&nbsp;на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
         </div>
       </li>
       <li class="table__cell">
@@ -134,9 +193,7 @@
           <img class="table__image" src="./images/places/places_05_karjala.jpg" alt="Карелия">
         </picture>
         <div class="table__text">
-          <p class="table__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный. 
-            В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья 
-            в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
+          <p class="table__paragraph">Сибирь заканчивается не на Урале, а&nbsp;в&nbsp;Карелии: образующая тайгу сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса&nbsp;карельских национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем&nbsp;полтысячелетия. Прикоснитесь к живому существу, видевшему солнце&nbsp;раньше, чем увидал его Иван&nbsp;Грозный. В девственном лесу на сотню километров не встретишь тропы. А&nbsp;на редких тропинках деревья в&nbsp;паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
         </div>
       </li>
     </ul>

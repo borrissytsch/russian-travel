@@ -1,10 +1,23 @@
 .travel {
-  margin-left: calc((var(--travel_berth_sidemgr)/3)*1px);
-  margin-right: calc((var(--travel_berth_sidemgr)/3)*1px);
+  margin-left: calc((var(--travel_left_mrg))*1px);
+  margin-right: calc((var(--page_width) - var(--travel_berth_width) - var(--travel_left_mrg))*1px);
   display: flex;
   position: relative;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   text-align: center;
-}                                                                                                                                                                                            /* border-color: turquoise; border-style: solid; */
+}                                                                                                                                                                                           /* border-color: turquoise; border-style: solid; */
+
+@media screen and (max-width: 1279px) {
+  .travel {
+    margin-left: calc((var(--travel_left_mrg)/var(--page_width))*100%);
+    margin-right: calc((var(--page_width) - var(--travel_berth_width) - var(--travel_left_mrg))/var(--page_width)*100%);
+  }
+}
+
+@media screen and (max-width: 896px) {
+  .travel {
+    margin-right: 0;
+  }
+}

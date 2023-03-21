@@ -1,9 +1,7 @@
 .review__ref-info {
   margin: 0 auto;
-  margin-top: calc(var(--travel_review_reftop)*1px);
+  margin-top: calc(var(--review_ref_topmrg)*1px);
   margin-left: var(--items_left);
-  margin-right: var(--items_right);
   padding: 0;
-  width: var(--items_width);
   list-style-type: none;
 }                                                                                                                                                                                      /* border: 2px dotted deepskyblue; */

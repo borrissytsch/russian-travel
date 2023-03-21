@@ -1,10 +1,9 @@
 .places {
   margin-top:calc(var(--places_top)*1px);
-  margin-left:calc(var(--table_left)/4*1px);
-  margin-right: calc(var(--table_right)/4*1px);
+  margin-left:calc(var(--table_left)/2*1px);
 }                                                                                                                                                                                                    /* border-color: turquoise; border-style: solid; */
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 1279px) {
   .places {
     margin-left: 0;
     margin-right: 0;

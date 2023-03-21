@@ -1,4 +1,4 @@
 .sightseeings {
+  margin-top: calc(var(--sight_items_top)*1px);
   margin-left: calc(var(--sight_items_left)/2*1px);
-  margin-right: calc(var(--sight_items_right)/2*1px);
-}                                                                                                                                                                                            /* border-color: turquoise; border-style: solid; */
+}

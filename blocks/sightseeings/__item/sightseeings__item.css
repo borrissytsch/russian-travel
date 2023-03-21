@@ -1,4 +1,4 @@
 .sightseeings__item {
   max-width: calc(var(--sight_image_width)*1px);
-  max-height: calc(var(--sight_image_hight)*1px);
+  max-height: calc(var(--sight_image_height)*1px);
 }                                                                                                                                                                                                          /* border: 2px dotted deepskyblue; */

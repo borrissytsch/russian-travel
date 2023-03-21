@@ -1,8 +1,8 @@
 .review {
-  margin-top: calc(var(--travel_review_top)*1px);
-  --items_left: calc(var(--travel_review_left)*1px);
-  --items_right: calc(var(--travel_review_right)*1px);
-  --items_width: calc(var(--travel_review_width)*1px);
+  margin-top: calc(var(--review_top_mrg)*1px);
+  margin-left: calc(var(--review_left_mrg)*1px);
+  --items_left: calc(var(--review_par_leftmrg)*1px);
+  --items_width: calc(var(--review_width)*1px);
   align-self: flex-start;
   text-align: left;
-}                                                                                                                                                                                          /* border-color:blueviolet; border-style: dashed; */
+}                                                                                                                                                                               /* border-color:blueviolet; border-style: dashed; */
