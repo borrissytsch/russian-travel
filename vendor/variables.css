@@ -7,7 +7,6 @@
   --page_width: 1280;
   --default_section_top: 92;
   --default_section_left: 48;
-  --dbg_media_trace: #f00;
    /* ---------------------------- Header config ---------------------------- */
   --logo_top_marg: 28;
   --logo_side_marg: var(--default_section_left);
