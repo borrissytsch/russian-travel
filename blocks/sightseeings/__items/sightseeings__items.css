@@ -6,6 +6,6 @@
   display: grid;
   grid-template-columns: repeat(var(--num_gricols), 1fr);
   grid-template-rows: auto;
-  gap: calc(var(--sight_table_gap)*1px) calc(var(--sight_table_col)*1px);
+  gap: calc(var(--sight_table_gap)*1px) calc(var(--sight_table_col)*1px);; 
   list-style-type: none;
 }                                                                                                                                                                                               /* border-color:blueviolet; border-style: dashed; */

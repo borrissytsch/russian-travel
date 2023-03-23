@@ -2,11 +2,12 @@
   margin: 0 auto;
   margin-left: calc(var(--concl_title_left)*1px);
   margin-right: calc(var(--concl_title_right)*1px);
+  /* width: calc(var(--concl_title_width)*1px); */
   font-size: 72px;
   font-weight: 900;
   line-height: 76px;
   text-align: center;
-}                                                                                                                                                                                                    /* border: 2px dotted deepskyblue; */
+}                                                                                                                                                                                                            /* border: 2px dotted deepskyblue; */
 
 @media screen and (min-width: 1025px) and (max-width: 1279px) {
   .conclusion__title {

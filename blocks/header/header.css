@@ -1,7 +1,7 @@
 .header {
   margin-top: calc(var(--logo_top_marg)*1px);
   margin-left: calc(var(--logo_side_marg)*1px);
-  margin-right: calc((var(--logo_side_marg) + var(--logo_match_side)*2)*1px);
+  margin-right: calc(var(--logo_side_marg)*1px);
   max-width: calc(100% - var(--logo_side_marg)*2px);
   min-height: calc(var(--header_height)*1px);
   display: flex;

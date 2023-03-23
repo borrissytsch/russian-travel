@@ -1,8 +1,9 @@
 .review__paragraph {
+  margin: 0;
   margin-top: calc(var(--review_par_topmrg)*1px);
   margin-left: var(--items_left);
   max-width: var(--items_width);
   font-size: 16px;
   font-weight: 400;
   line-height: 163%;
-}                                                                                                                                                                                          /* border: 2px dotted deepskyblue; */
+}                                                                                                                                                                                                  /* border: 2px dotted deepskyblue; */

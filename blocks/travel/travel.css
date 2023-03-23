@@ -7,17 +7,19 @@
   justify-content: flex-start;
   align-items: center;
   text-align: center;
-}                                                                                                                                                                                           /* border-color: turquoise; border-style: solid; */
+}                                                                                                                                                                                                     /* border-color: turquoise; border-style: solid; */
 
 @media screen and (max-width: 1279px) {
   .travel {
     margin-left: calc((var(--travel_left_mrg)/var(--page_width))*100%);
     margin-right: calc((var(--page_width) - var(--travel_berth_width) - var(--travel_left_mrg))/var(--page_width)*100%);
+  
   }
 }
 
 @media screen and (max-width: 896px) {
   .travel {
     margin-right: 0;
+  
   }
 }

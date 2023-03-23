@@ -5,5 +5,6 @@
   .table__text {
     margin-top: calc(var(--table_align_partop)*1px);
     margin-left:calc(var(--table_left)*1px);
+    max-width: calc(var(--table_par_len)*1px);
   } 
 }

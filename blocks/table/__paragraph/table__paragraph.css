@@ -1,23 +1,14 @@
 .table__paragraph {
   margin: 0;
+  margin-top: calc(var(--table_align_partop)*1px);
   margin-bottom: calc(var(--table_prg_bot)*1px);
   font-size: 18px;
   font-weight: 400;
   line-height: 29px;
-}                                                                                                                                                                                                         /* outline: 1px dashed orangered; */
+}                                                                                                                                                                                                /* outline: 1px dashed orangered; */
 
 .table__paragraph:last-of-type {
   margin-bottom: 0;
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .table__cell+.table__cell .table__text>.table__paragraph {
-    margin-top: calc(var(--table_align_partop)*1px);
-  }
-  
-  .table__cell+.table__cell:nth-of-type(3) .table__text>.table__paragraph.table__paragraph {
-    margin-top: calc(var(--table_align_partop)*3px);
-  }
 }
 
 @media screen and (min-width: 320px) and (max-width: 1023px) {
